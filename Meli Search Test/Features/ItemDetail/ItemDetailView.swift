@@ -66,7 +66,7 @@ struct ItemDetailView: View {
                         }
                     }
                 }
-                .frame(height: CGFloat(viewStore.item.attributes.count) * 55)
+                .frame(height: CGFloat(viewStore.item.attributes.count) * 100)
                 .scrollDisabled(true)
             }.background(Color(red: 242/255, green: 242/255, blue: 247/255))
                 .padding(.top, -100)
